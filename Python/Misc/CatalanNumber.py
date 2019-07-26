@@ -15,3 +15,5 @@ def catalanNumber(n):
     return d[n]
 print(catalanNumber(5))
 # Cn+1 = SUM(0-n) over Ci*Ci-n
+# complexity O(n^2)
+# link : https://www.geeksforgeeks.org/program-nth-catalan-number/
