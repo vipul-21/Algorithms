@@ -14,6 +14,6 @@ def coinChange(n, s):
     print(ans)
     return ans[-1][-1]
 
-n = 10
+n = 4
 s = [2,3,5,6]
 print(coinChange(n,s))
